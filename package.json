@@ -1,0 +1,21 @@
+{
+  "name": "odin-project-restaurant-page",
+  "version": "1.0.0",
+  "description": "A dynamic restaurant homepage built with JavaScript for DOM manipulation. The content is generated through modular JavaScript components for sections like Home, Menu, and Contact. Webpack is used for bundling, and the project is deployed via GitHub Pages with tabbed navigation for seamless page transitions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.2",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  }
+}
