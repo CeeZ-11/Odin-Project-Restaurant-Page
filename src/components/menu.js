@@ -3,7 +3,7 @@ export class Menu {
 
   createContent() {
     const content = document.getElementById("content");
-    content.innerHTML = ""; // Clear previous content
+    content.innerHTML = "";
 
     const heading = document.createElement("h1");
     heading.textContent = "Our Menu";
