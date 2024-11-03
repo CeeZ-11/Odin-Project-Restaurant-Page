@@ -4,7 +4,10 @@
   "description": "A dynamic restaurant homepage built with JavaScript for DOM manipulation. The content is generated through modular JavaScript components for sections like Home, Menu, and Contact. Webpack is used for bundling, and the project is deployed via GitHub Pages with tabbed navigation for seamless page transitions.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.prod.js",
+    "dev": "webpack serve --config webpack.dev.js",
+    "deploy": "git subtree push --prefix dist origin gh-pages"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +19,7 @@
     "style-loader": "^4.0.0",
     "webpack": "^5.95.0",
     "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^5.1.0"
+    "webpack-dev-server": "^5.1.0",
+    "webpack-merge": "^6.0.1"
   }
 }
