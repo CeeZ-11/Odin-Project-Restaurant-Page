@@ -1,0 +1,72 @@
+/* style.css */
+
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f1f1f1;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header styles */
+header {
+  background-color: #4caf50; /* Green background */
+  color: white; /* White text */
+  padding: 10px 20px;
+  text-align: center;
+}
+
+/* Navigation styles */
+nav {
+  margin: 20px 0;
+}
+
+nav button {
+  background-color: #333; /* Dark background */
+  color: white; /* White text */
+  border: none;
+  padding: 10px 15px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+nav button:hover {
+  background-color: #555; /* Darker on hover */
+}
+
+/* Content styles */
+#content {
+  max-width: 800px; /* Limit width */
+  margin: 0 auto; /* Center content */
+  padding: 20px;
+  background-color: white; /* White background for content */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h1 {
+  margin-bottom: 15px; /* Space below heading */
+  font-size: 2em; /* Larger heading */
+  color: #4caf50; /* Green color */
+}
+
+p {
+  margin-bottom: 15px; /* Space below paragraph */
+  font-size: 1em; /* Normal paragraph size */
+}
+
+/* Image styles */
+img {
+  width: 100%; /* Full width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px; /* Rounded corners */
+  margin-bottom: 20px; /* Space below image */
+}

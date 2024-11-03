@@ -10,6 +10,7 @@ export class Menu {
 
     const menuItems = ["Item 1", "Item 2", "Item 3"];
     const list = document.createElement("ul");
+    list.style.listStyleType = "none";
     menuItems.forEach((item) => {
       const listItem = document.createElement("li");
       listItem.textContent = item;

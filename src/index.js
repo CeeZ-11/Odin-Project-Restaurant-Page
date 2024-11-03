@@ -1,6 +1,7 @@
 import { Home } from "./components/home.js";
 import { Menu } from "./components/menu.js";
-import { About } from "./components/about.j";
+import { About } from "./components/about.js";
+import "./style.css";
 
 function createNavButtons() {
   const homebutton = document.createElement("button");
